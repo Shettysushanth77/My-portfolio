@@ -3,9 +3,9 @@ import "./intro.css";
 import { FaAward } from "react-icons/fa";
 import React from "react";
 import { VscFolderLibrary } from "react-icons/vsc";
-import img from '../../assets/Me.png'
+import img from '../../assets/photo_2024-04-12_11-07-27.jpg'
 
-// import ME from '../../assets/Rasif Tagizade image.jpg';
+
 
 
 const Intro = () => {
@@ -16,32 +16,13 @@ const Intro = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={img} alt="Rasif Taghizade" />
+            <img src={img} alt="Sushantha Shetty" id="im"/>
           </div>
         </div>
         <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>1.5 year</small>
-            </article>
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>10+ Completed Projects</small>
-            </article>
-          </div>
-          <p>
-            1+ years experienced Front End Developer with hands-on experience in
-            identifying web-based user interactions along with designing and
-            implementing highly-responsive user interface components by
-            deploying React concepts. Proficient in translating designs and
-            wireframes into high-quality code, and writing application interface
-            code via JavaScript and React JS workflows. Adept at monitoring and
-            maintaining frontend performance and troubleshooting and debugging
-            the same to bolster overall performance.
-          </p>
+          <h2>
+          To pursue a job opportunity in a competitive environment that will challenge me to push my boundaries and expand my knowledge in the field of computer science while allowing me to add value to the dynamics of the company. I am a graduate at Visveswaraya Technological University,persuing my bachelor degree on Computer Science and Engineering with a concentration on Software and Information Systems
+          </h2>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
